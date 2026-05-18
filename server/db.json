@@ -1,19 +1,14 @@
 {
   "todos": [
     {
-      "content": "123",
+      "content": "놀기",
       "isDone": false,
-      "id": "ov-K-HWs0_E"
+      "id": "jPyJmz2wUsw"
     },
     {
-      "content": "21314",
+      "content": "자기",
       "isDone": false,
-      "id": "fQ2rlpFKroE"
-    },
-    {
-      "content": "123456",
-      "isDone": false,
-      "id": "AcqYG3h8G5Q"
+      "id": "qUdCgVyimlM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

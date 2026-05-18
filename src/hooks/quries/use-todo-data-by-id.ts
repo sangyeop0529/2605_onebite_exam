@@ -2,17 +2,10 @@ import { fetchTodoById } from "@/api/tetch-todo-bt-id";
 import { QUERY_KEYS } from "@/lib/constants";
 import { useQuery } from "@tanstack/react-query";
 
-export function useTodoDataById(id: string) {
+export function useTodoDataById(id: string, type: "LIST" | "DETAIL") {
   return useQuery({
     queryFn: () => fetchTodoById(id),
     queryKey: QUERY_KEYS.todo.detail(id),
-
-    staleTime: 300000,
-    gcTime: 5000,
-
-    // refetchOnMount: false,
-    // refetchOnWindowFocus: false,
-    // refetchOnReconnect: false,
-    // refetchInterval: false,
+    enabled: type === "DETAIL",
   });
 }
