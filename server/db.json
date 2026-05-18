@@ -1,24 +1,19 @@
 {
   "todos": [
     {
-      "id": "1",
-      "content": "Todo 1",
-      "isDone": true
-    },
-    {
-      "id": "2",
-      "content": "Todo 2",
-      "isDone": true
-    },
-    {
-      "id": "3",
-      "content": "Todo 3",
-      "isDone": false
-    },
-    {
-      "content": "안녕하세요.",
+      "content": "123",
       "isDone": false,
-      "id": "stETczOHhHo"
+      "id": "ov-K-HWs0_E"
+    },
+    {
+      "content": "21314",
+      "isDone": false,
+      "id": "fQ2rlpFKroE"
+    },
+    {
+      "content": "123456",
+      "isDone": false,
+      "id": "AcqYG3h8G5Q"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
