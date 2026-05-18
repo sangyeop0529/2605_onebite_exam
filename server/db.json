@@ -1,0 +1,15 @@
+{
+  "todos": [
+    {
+      "content": "놀기",
+      "isDone": false,
+      "id": "jPyJmz2wUsw"
+    },
+    {
+      "content": "자기",
+      "isDone": false,
+      "id": "qUdCgVyimlM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
